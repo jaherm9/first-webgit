@@ -1,0 +1,30 @@
+body {
+    background: rgba(242, 242, 242, .6);
+}
+* {
+    box-sizing: border-box;
+}
+
+/* navbar styling */
+
+.navbar {
+   justify-content: center;
+   float: right;
+}
+
+.navbar a {
+    font-family:monospace;
+    font-weight: 700;
+    color: teal;
+    padding: 14px 16px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: white;
+    background-color: rgb(95, 151, 112);
+    border-radius: 10px;
+    margin-top: 5px;
+}
